@@ -1,7 +1,10 @@
 from os import abort
 from flask import Flask, render_template, abort
 
-app = Flask(__name__)
+def create_app():
+
+    app = Flask(__name__)
+    return app
 
 """
 Storing my projects here instead of Database.
