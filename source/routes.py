@@ -21,12 +21,12 @@ Making an Index to make it easier to search.
 """
 projects = [
     {
-        "name": "Habit tracking app with Python and MongoDB",
-        "thumb": "img/habit-tracking.png",
-        "hero": "img/habit-tracking-hero.png",
-        "categories": ["python", "web"],
-        "slug": "habit-tracking",
-        "prod": "https://udemy.com",
+        "name": "What to watch next!?!",
+        "thumb": "img/watch-list.png",
+        "hero": "img/watchlist-hero.png",
+        "categories": ["python", "flask","MongoDB","Heroku"],
+        "slug": "movie-watchlist",
+        "prod": "https://movie-watchlist-flask-tap.herokuapp.com/",
     },
     {
         "name": "Personal finance tracking app with React",
