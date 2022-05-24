@@ -7,11 +7,11 @@
 html {
   font-family: Lato, "sans-serif";
 }
-/*Turn off Grids Here*/
+/*Turn off Grids Here
 body *{
   border: 1px dashed greenyellow;
 }
-/*Turn off Grids Here*/
+Turn off Grids Here*/
 
 body {
   margin-top: 80px;
