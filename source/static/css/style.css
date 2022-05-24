@@ -7,6 +7,11 @@
 html {
   font-family: Lato, "sans-serif";
 }
+/*Turn off Grids Here*/
+body *{
+  border: 1px dashed greenyellow;
+}
+/*Turn off Grids Here*/
 
 body {
   margin-top: 80px;
@@ -31,9 +36,15 @@ body {
   margin-right: 2.5rem;
 }
 
-.nav__link--active,
+.nav__link--active{
+    font-weight: bold;
+    font-size: larger;
+    color: #3d84a3;
+
+}
 .nav__link:hover {
   font-weight: bold;
+  
 }
 
 .main {
